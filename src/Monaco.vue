@@ -109,7 +109,9 @@ export default {
         },
         
         code() {
+            const p = this.editor.getPosition();
             this.editor.setValue(this.code);
+            this.editor.setPosition(p);
         }
     },
 
