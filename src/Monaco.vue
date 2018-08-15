@@ -109,7 +109,7 @@ export default {
         },
         
         code() {
-            this.editor.setValue(code);
+            this.editor.setValue(this.code);
         }
     },
 
