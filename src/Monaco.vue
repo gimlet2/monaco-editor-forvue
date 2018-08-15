@@ -106,6 +106,10 @@ export default {
 
         language () {
             window.monaco.editor.setModelLanguage(this.editor.getModel(), this.language)
+        },
+        
+        code() {
+            this.editor.setValue(code);
         }
     },
 
